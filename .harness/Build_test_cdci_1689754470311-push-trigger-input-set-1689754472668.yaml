@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_test_cdci_1689754470311-push-trigger-input-set
+  identifier: Build_test_cdci_1689754470311pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: testcdcisikkert
+  pipeline:
+    identifier: Build_test_cdci_1689754470311
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
